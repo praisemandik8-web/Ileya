@@ -13,7 +13,7 @@ public class PankyesQuizGrader{
         String[] studentNames = new String[numStudents];
         
         
-        for(int index = 0; index < numQuiz; index++) {
+        for(int index = 0; index < numStudents; index++) {
             studentNames[index] = "Student " + (index + 1);
             System.out.println("\nEntering score for " + studentNames[index]);
             

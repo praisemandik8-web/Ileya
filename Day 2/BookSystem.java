@@ -18,7 +18,7 @@ public class BookSystem {
 
         while (choice != 6) {
 
-            System.out.println("\n=== Book Suggestion System APP!");
+            System.out.println("\n=== Book Suggestion System APP! ====");
         //  System.out.println("1. Get Suggestions");
             System.out.println("2. Add Book");
             System.out.println("3. Remove Book");
