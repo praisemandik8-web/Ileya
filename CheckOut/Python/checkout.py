@@ -1,6 +1,7 @@
 subtotal = 0
+choice = "yes"
 
-while True:
+while choice=="yes":
     name = input("\nEnter product name: ")
 
     price = float(input("Enter price: "))
@@ -16,7 +17,7 @@ while True:
     if choice.lower() == "no":
         break
 
-# These lines should be OUTSIDE the loop
+
 discount = float(input("\nEnter discount amount: "))
 
 vat = 0.075 * subtotal
